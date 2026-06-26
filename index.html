@@ -1,171 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Emmanuel Adeleke Portfolio</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: white;
-      line-height: 1.6;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    header {
-      padding: 60px 20px;
-      text-align: center;
-      background: #111827;
-    }
+    <title>Emmanuel Adeleke | Engineering Portfolio</title>
 
-    header h1 {
-      font-size: 40px;
-      margin-bottom: 10px;
-    }
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 
-    header p {
-      color: #94a3b8;
-      font-size: 18px;
-    }
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    h2 {
-      color: #38bdf8;
-      margin-bottom: 15px;
-    }
-
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    .skills span {
-      display: inline-block;
-      background: #334155;
-      padding: 8px 12px;
-      margin: 5px;
-      border-radius: 6px;
-      font-size: 14px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #111827;
-      color: #94a3b8;
-    }
-
-    a {
-      color: #38bdf8;
-    }
-    img {
-  width: 100%;
-  border-radius: 12px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-  </style>
 </head>
 
 <body>
 
-<header>
-  <h1>Emmanuel Adeleke</h1>
-  <p> Engineering Technology Masters Student at East Tennessess State University | IoT | Digital Twins | Structural Engineering | Embedded Systems | Harwares | AI</p>
-</header>
+    <!--================ NAVBAR ================-->
 
-<section>
-  <h2>About Me</h2>
-  <div class="card">
-    Engineering Technologist who focuses on building real-world systems using IoT, embedded systems, and digital twin technology. I also explore structural engineering concepts and AI-driven engineering solutions.
-  </div>
-</section>
+    <nav>
 
-<section>
-  <h2>Projects</h2>
+        <div class="logo">
 
-  <div class="card">
-    <h3>Smart Air Quality Monitoring System</h3>
-    <img src="images/esp32_setup" alt="ESP32 Setup">
-  <p>
-    <img src="images/IoT Hardware" alt="ESP32 Setup">
-  <p>
-     <img src="images/IoT Hardware 2" alt="ESP32 Setup">
-  <p>
-     <img src="images/IoT Hardware 3" alt="ESP32 Setup">
-  <p>
-    ESP32-based system for real-time environmental monitoring using MQTT and InfluxDB.
-  </div>
+            Emmanuel Adeleke
 
-  <div class="card">
-    <h3>IoT Dashboard System</h3>
-      <img src="images/Live Digital Twin 2" alt="Dashboard">
-  <p>
-     <img src="images/Live Digital Twin" alt="Dashboard">
-  <p>
-     <img src="images/Digital Twin Dash Board" alt="Dashboard">
-  <p>
-    Real-time data visualization using Node-RED and MQTT.
-  </div>
-  
-  <div class="card">
-  <h3>Node-RED Data Pipeline</h3>
-  <img src="images/nodered midware" alt="Node-RED Flow">
-  <p>
-    Designed IoT data pipelines for sensor ingestion, processing, and real-time visualization.
-  </p>
-</div>
+        </div>
 
-  <div class="card">
-    <h3>Digital Twin Engineering Projects</h3>
-     <img src="images/DigitalTwin" alt="Digital Twin">
-  <p>
-    Developed early-stage digital twin systems connecting physical sensors to virtual models for simulation and monitoring.
-  </div>
+        <ul>
 
-  <div class="card">
-    <h3>Structural Engineering Experience</h3>
-    Experience in structural analysis concepts, load behavior, and system modeling in engineering applications.
-  </div>
-</section>
+            <li><a href="#home">Home</a></li>
 
-<section>
-  <h2>Skills</h2>
-  <div class="skills">
-    <span>ESP32</span>
-    <span>Arduino</span>
-    <span>MQTT</span>
-    <span>Node-RED</span>
-    <span>InfluxDB</span>
-    <span>Digital Twins</span>
-    <span>Structural Analysis</span>
-    <span>C++</span>
-    <span>Embedded Systems</span>
-    <span>AI Tools</span>
-  </div>
-</section>
+            <li><a href="#about">About</a></li>
 
-<section>
-  <h2>Contact</h2>
-  <div class="card">
-    GitHub: <a href="https://github.com/emanueladeleke">github.com/emanueladeleke</a><br/>
-    Email: adelekee@etsu.edu
-    Linkedin : www.linkedin.com/in/adeleke-emmanuel-131a1a1a5
-  </div>
-</section>
+            <li><a href="#projects">Projects</a></li>
 
-<footer>
-  © 2026 Emmanuel Adeleke | Engineering Portfolio
-</footer>
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!--================ HERO SECTION ================-->
+
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Emmanuel Adeleke</h1>
+
+            <h2>
+
+                <span id="typing"></span>
+
+            </h2>
+
+            <p>
+
+                Graduate Engineering Technology student passionate about Artificial Intelligence,
+                IoT, Embedded Systems, Digital Twins, and Structural Engineering.
+                I enjoy building intelligent engineering systems that bridge the physical
+                and digital worlds.
+
+            </p>
+
+            <div class="buttons">
+
+                <a href="#projects" class="btn">
+
+                    Explore My Work
+
+                </a>
+
+                <a href="resume.pdf" class="btn btn-outline">
+
+                    Download Resume
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!--================ ABOUT ================-->
+
+    <section id="about">
+
+        <div class="section-title">
+
+            About Me
+
+        </div>
+
+        <div class="about-card">
+
+            <p>
+
+                I am currently pursuing my Master's in Engineering Technology at
+                East Tennessee State University.
+
+                My interests span Artificial Intelligence, Internet of Things,
+                Embedded Systems, Structural Engineering, and Digital Twin technologies.
+
+                I enjoy designing systems that combine hardware, software,
+                cloud technologies, and data visualization to solve real engineering problems.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!--================ PROJECTS ================-->
+
+    <section id="projects">
+
+        <div class="section-title">
+
+            Featured Projects
+
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <img src="images/air-quality.jpg">
+
+                <h3>Smart Air Quality Monitor</h3>
+
+                <p>
+
+                    ESP32-based environmental monitoring system with MQTT,
+                    InfluxDB and Node-RED dashboard.
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/dashboard.jpg">
+
+                <h3>IoT Dashboard</h3>
+
+                <p>
+
+                    Live engineering dashboard built using
+                    Node-RED and MQTT.
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/digital-twin.jpg">
+
+                <h3>Digital Twin</h3>
+
+                <p>
+
+                    Real-time synchronization between
+                    physical sensors and virtual monitoring.
+
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <img src="images/structural.jpg">
+
+                <h3>Structural Engineering</h3>
+
+                <p>
+
+                    Structural analysis,
+                    load behavior,
+                    and engineering simulations.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--================ SKILLS ================-->
+
+    <section id="skills">
+
+        <div class="section-title">
+
+            Skills
+
+        </div>
+
+        <div class="skills">
+
+            <span>Artificial Intelligence</span>
+            <span>Python</span>
+            <span>C++</span>
+            <span>ESP32</span>
+            <span>Arduino</span>
+            <span>MQTT</span>
+            <span>Node-RED</span>
+            <span>InfluxDB</span>
+            <span>Digital Twins</span>
+            <span>Embedded Systems</span>
+            <span>Structural Engineering</span>
+
+        </div>
+
+    </section>
+
+    <!--================ CONTACT ================-->
+
+    <section id="contact">
+
+        <div class="section-title">
+
+            Contact
+
+        </div>
+
+        <div class="contact-card">
+
+            <p>
+
+                <i class="fa-solid fa-envelope"></i>
+
+                adelekee@etsu.edu
+
+            </p>
+
+            <p>
+
+                <i class="fab fa-github"></i>
+
+                github.com/emanueladeleke
+
+            </p>
+
+            <p>
+
+                <i class="fab fa-linkedin"></i>
+
+                linkedin.com/in/adeleke-emmanuel-131a1a1a5
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        © 2026 Emmanuel Adeleke
+
+    </footer>
+
+<script src="script.js"></script>
 
 </body>
+
 </html>

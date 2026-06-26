@@ -27,23 +27,15 @@
     <nav>
 
         <div class="logo">
-
             Emmanuel Adeleke
-
         </div>
 
         <ul>
-
             <li><a href="#home">Home</a></li>
-
             <li><a href="#about">About</a></li>
-
             <li><a href="#projects">Projects</a></li>
-
             <li><a href="#skills">Skills</a></li>
-
             <li><a href="#contact">Contact</a></li>
-
         </ul>
 
     </nav>
@@ -59,42 +51,28 @@
             <h1>Emmanuel Adeleke</h1>
 
             <h2>
-
                 <span id="typing"></span>
-
             </h2>
 
             <p>
-
                 Graduate Engineering Technology student passionate about Artificial Intelligence,
                 IoT, Embedded Systems, Digital Twins, and Structural Engineering.
                 I enjoy building intelligent engineering systems that bridge the physical
                 and digital worlds.
-
             </p>
 
             <div class="buttons">
 
-                <a href="#projects" class="btn">
+                <a href="#projects" class="btn">Explore My Work</a>
 
-                    Explore My Work
-
-                </a>
-
-                <a href="resume.pdf" class="btn btn-outline">
-
-                    Download Resume
-
-                </a>
+                <a href="resume.pdf" class="btn btn-outline">Download Resume</a>
 
             </div>
 
         </div>
 
         <div class="hero-image">
-
             <img src="images/profile.jpg" alt="Profile">
-
         </div>
 
     </section>
@@ -104,15 +82,12 @@
     <section id="about">
 
         <div class="section-title">
-
             About Me
-
         </div>
 
         <div class="about-card">
 
             <p>
-
                 I am currently pursuing my Master's in Engineering Technology at
                 East Tennessee State University.
 
@@ -121,58 +96,63 @@
 
                 I enjoy designing systems that combine hardware, software,
                 cloud technologies, and data visualization to solve real engineering problems.
-
             </p>
 
         </div>
 
     </section>
 
-    <!-- ================= PROJECT FILTER BUTTONS ================= -->
+    <!--================ PROJECTS ================-->
 
-<div class="filter-buttons">
+    <section id="projects">
 
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="ai">AI</button>
-    <button class="filter-btn" data-filter="iot">IoT</button>
-    <button class="filter-btn" data-filter="digital">Digital Twin</button>
-    <button class="filter-btn" data-filter="structural">Structural</button>
+        <div class="section-title">
+            Featured Projects
+        </div>
 
-</div>
+        <!-- FILTER BUTTONS -->
+        <div class="filter-buttons">
 
-<!-- ================= PROJECT GRID ================= -->
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="iot">IoT</button>
+            <button class="filter-btn" data-filter="digital">Digital Twin</button>
+            <button class="filter-btn" data-filter="structural">Structural</button>
 
-<div class="project-grid">
+        </div>
 
-    <!-- AI PROJECT -->
-    <div class="project-card" data-category="ai">
-        <img src="images/ai-project.jpg">
-        <h3>AI System Research</h3>
-        <p>AI-based engineering automation and evaluation systems.</p>
-    </div>
+        <!-- PROJECT GRID -->
+        <div class="project-grid">
 
-    <!-- IOT PROJECT -->
-    <div class="project-card" data-category="iot">
-        <img src="images/air-quality.jpg">
-        <h3>Smart Air Quality Monitor</h3>
-        <p>ESP32 + MQTT + InfluxDB real-time sensor system.</p>
-    </div>
+            <!-- AI PROJECT -->
+            <a href="pages/ai.html" class="project-card" data-category="ai">
+                <img src="images/ai-project.jpg">
+                <h3>AI System Research</h3>
+                <p>AI-based engineering automation and evaluation systems.</p>
+            </a>
 
-    <!-- DIGITAL TWIN -->
-    <div class="project-card" data-category="digital">
-        <img src="images/digital-twin.jpg">
-        <h3>Digital Twin Dashboard</h3>
-        <p>Real-time physical + virtual system synchronization.</p>
-    </div>
+            <!-- IOT PROJECT -->
+            <a href="pages/iot.html" class="project-card" data-category="iot">
+                <img src="images/air-quality.jpg">
+                <h3>Smart Air Quality Monitor</h3>
+                <p>ESP32 + MQTT + InfluxDB real-time sensor system.</p>
+            </a>
 
-    <!-- STRUCTURAL -->
-    <div class="project-card" data-category="structural">
-        <img src="images/structural.jpg">
-        <h3>Structural Analysis Project</h3>
-        <p>Load analysis and engineering simulation models.</p>
-    </div>
+            <!-- DIGITAL TWIN -->
+            <a href="pages/digital-twin.html" class="project-card" data-category="digital">
+                <img src="images/digital-twin.jpg">
+                <h3>Digital Twin Dashboard</h3>
+                <p>Real-time physical + virtual system synchronization.</p>
+            </a>
 
-</div>
+            <!-- STRUCTURAL -->
+            <a href="pages/structural.html" class="project-card" data-category="structural">
+                <img src="images/structural.jpg">
+                <h3>Structural Analysis Project</h3>
+                <p>Load analysis and engineering simulation models.</p>
+            </a>
+
+        </div>
 
     </section>
 
@@ -181,9 +161,7 @@
     <section id="skills">
 
         <div class="section-title">
-
             Skills
-
         </div>
 
         <div class="skills">
@@ -209,48 +187,28 @@
     <section id="contact">
 
         <div class="section-title">
-
             Contact
-
         </div>
 
         <div class="contact-card">
 
-            <p>
+            <p><i class="fa-solid fa-envelope"></i> adelekee@etsu.edu</p>
 
-                <i class="fa-solid fa-envelope"></i>
+            <p><i class="fab fa-github"></i> github.com/emanueladeleke</p>
 
-                adelekee@etsu.edu
-
-            </p>
-
-            <p>
-
-                <i class="fab fa-github"></i>
-
-                github.com/emanueladeleke
-
-            </p>
-
-            <p>
-
-                <i class="fab fa-linkedin"></i>
-
-                linkedin.com/in/adeleke-emmanuel-131a1a1a5
-
-            </p>
+            <p><i class="fab fa-linkedin"></i> linkedin.com/in/adeleke-emmanuel-131a1a1a5</p>
 
         </div>
 
     </section>
 
+    <!--================ FOOTER ================-->
+
     <footer>
-
         © 2026 Emmanuel Adeleke
-
     </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

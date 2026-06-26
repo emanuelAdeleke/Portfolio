@@ -128,80 +128,51 @@
 
     </section>
 
-    <!--================ PROJECTS ================-->
+    <!-- ================= PROJECT FILTER BUTTONS ================= -->
 
-    <section id="projects">
+<div class="filter-buttons">
 
-        <div class="section-title">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="ai">AI</button>
+    <button class="filter-btn" data-filter="iot">IoT</button>
+    <button class="filter-btn" data-filter="digital">Digital Twin</button>
+    <button class="filter-btn" data-filter="structural">Structural</button>
 
-            Featured Projects
+</div>
 
-        </div>
+<!-- ================= PROJECT GRID ================= -->
 
-        <div class="project-grid">
+<div class="project-grid">
 
-            <div class="project-card">
+    <!-- AI PROJECT -->
+    <div class="project-card" data-category="ai">
+        <img src="images/ai-project.jpg">
+        <h3>AI System Research</h3>
+        <p>AI-based engineering automation and evaluation systems.</p>
+    </div>
 
-                <img src="images/air-quality.jpg">
+    <!-- IOT PROJECT -->
+    <div class="project-card" data-category="iot">
+        <img src="images/air-quality.jpg">
+        <h3>Smart Air Quality Monitor</h3>
+        <p>ESP32 + MQTT + InfluxDB real-time sensor system.</p>
+    </div>
 
-                <h3>Smart Air Quality Monitor</h3>
+    <!-- DIGITAL TWIN -->
+    <div class="project-card" data-category="digital">
+        <img src="images/digital-twin.jpg">
+        <h3>Digital Twin Dashboard</h3>
+        <p>Real-time physical + virtual system synchronization.</p>
+    </div>
 
-                <p>
+    <!-- STRUCTURAL -->
+    <div class="project-card" data-category="structural">
+        <img src="images/structural.jpg">
+        <h3>Structural Analysis Project</h3>
+        <p>Load analysis and engineering simulation models.</p>
+    </div>
 
-                    ESP32-based environmental monitoring system with MQTT,
-                    InfluxDB and Node-RED dashboard.
-
-                </p>
-
-            </div>
-
-            <div class="project-card">
-
-                <img src="images/dashboard.jpg">
-
-                <h3>IoT Dashboard</h3>
-
-                <p>
-
-                    Live engineering dashboard built using
-                    Node-RED and MQTT.
-
-                </p>
-
-            </div>
-
-            <div class="project-card">
-
-                <img src="images/digital-twin.jpg">
-
-                <h3>Digital Twin</h3>
-
-                <p>
-
-                    Real-time synchronization between
-                    physical sensors and virtual monitoring.
-
-                </p>
-
-            </div>
-
-            <div class="project-card">
-
-                <img src="images/structural.jpg">
-
-                <h3>Structural Engineering</h3>
-
-                <p>
-
-                    Structural analysis,
-                    load behavior,
-                    and engineering simulations.
-
-                </p>
-
-            </div>
-
-        </div>
+</div>
 
     </section>
 

@@ -70,4 +70,40 @@ window.addEventListener("scroll", function () {
     } else {
         nav.style.background = "rgba(17, 24, 39, 0.8)";
     }
+   /* =========================
+   PROJECT FILTER SYSTEM
+========================= */
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+const projects = document.querySelectorAll(".project-card");
+
+filterButtons.forEach(btn => {
+
+    btn.addEventListener("click", () => {
+
+        // remove active class
+        filterButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        const filter = btn.getAttribute("data-filter");
+
+        projects.forEach(project => {
+
+            const category = project.getAttribute("data-category");
+
+            if (filter === "all") {
+                project.classList.remove("hide");
+            } else {
+                if (category === filter) {
+                    project.classList.remove("hide");
+                } else {
+                    project.classList.add("hide");
+                }
+            }
+
+        });
+
+    });
+
+});
 });

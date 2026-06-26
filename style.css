@@ -275,4 +275,49 @@ footer {
     .hero-image img {
         width: 250px;
     }
+   /* =========================
+   FILTER BUTTONS
+========================= */
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background: #111827;
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #cbd5e1;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 13px;
+}
+
+.filter-btn:hover {
+    border-color: #38bdf8;
+    color: #38bdf8;
+}
+
+.filter-btn.active {
+    background: #38bdf8;
+    color: #0b1120;
+    border-color: #38bdf8;
+}
+
+/* hide animation */
+.project-card {
+    transition: all 0.4s ease;
+}
+
+.project-card.hide {
+    opacity: 0;
+    transform: scale(0.8);
+    pointer-events: none;
+    position: absolute;
+}
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Digital Twin | Emmanuel Adeleke</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Emmanuel Adeleke</div>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<section>
+
+    <div class="section-title">Digital Twin Systems</div>
+
+    <div class="about-card">
+
+        <h3>Overview</h3>
+
+        <p>
+            Development of real-time digital twin systems connecting
+            physical sensors with virtual dashboards for monitoring and analysis.
+        </p>
+
+        <br>
+
+        <h3>Capabilities</h3>
+
+        <ul>
+            <li>Real-time sensor synchronization</li>
+            <li>Data visualization dashboards</li>
+            <li>System simulation models</li>
+        </ul>
+
+        <br>
+
+        <a class="btn" href="https://github.com/">View Work</a>
+
+    </div>
+
+</section>
+
+</body>
+
+</html>
